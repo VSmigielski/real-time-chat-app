@@ -1,6 +1,6 @@
 const server = require('http').createServer();
 const options = { cors:true,
-    origins:["http://127.0.0.1:5500"], };
+    origins:["https://laughing-wiles-65014c.netlify.app/"], };
 const io = require('socket.io')(server, options);
 io.on('connection', socket => { /* ... */ });
 
